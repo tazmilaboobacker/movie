@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* *{
+    box-sizing: border-box;
+} */
+
+.hero{
+    background-image: url('/src/assets/website-background-templates.png');
+    background-size: cover; /* Ensures the image covers the entire area */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat;
+}
+.text{
+    color: rgb(23, 22, 22);
+}
+.text1{
+    color: rgb(22, 21, 21);
+}
+.search-btn{
+    background-color: rgb(26, 26, 26);
+    border: none;
+}
+.search-btn:hover{
+    background-color: black;
+} */
+.navbar {
+    background-color: rgb(21, 15, 27);
+    color: azure;
+}
+.menu{
+    color:rgb(21, 15, 27);
+    font-weight: 600;
+}
+.result{
+    margin-bottom: 68vh;
+}
+.container{
+    margin-bottom: 7vh;
+}
+.grid{
+    margin-top: 50px;
+}
+.overview-text{
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: white;
+}
+
